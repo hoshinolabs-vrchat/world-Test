@@ -344,7 +344,12 @@ PrefabInstance:
     - target: {fileID: 114115535249682816, guid: 9cb1e183d39ba432db5c583c4548819c,
         type: 3}
       propertyPath: blueprintId
-      value: avtr_74159f8c-a6da-4d6b-9c71-268890db30bd
+      value: wrld_6348a547-d55a-4722-ae7c-3d6549ea985b
+      objectReference: {fileID: 0}
+    - target: {fileID: 114115535249682816, guid: 9cb1e183d39ba432db5c583c4548819c,
+        type: 3}
+      propertyPath: contentType
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cb1e183d39ba432db5c583c4548819c, type: 3}

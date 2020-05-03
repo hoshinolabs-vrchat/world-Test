@@ -8,7 +8,7 @@ pipeline {
 	stages {
 		stage('Pipeline') {
 			steps {
-				build job: 'world-Test-wrapper/master'
+				build job: 'hoshinolabs-vrchat/world-Test-wrapper/master'
 			}
 		}
 	}

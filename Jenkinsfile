@@ -7,6 +7,9 @@ pipeline {
 	}
 	stages {
 		stage('Pipeline') {
+			when {
+				branch 'master'
+			}
 			steps {
 				build job: 'hoshinolabs-vrchat/world-Test-wrapper/master'
 			}

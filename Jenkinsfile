@@ -8,9 +8,7 @@ pipeline {
 	stages {
 		stage('Pipeline') {
 			steps {
-				script {
-					def job = build job: 'world-Test-wrapper/master'
-				}
+				build job: 'world-Test-wrapper/master'
 			}
 		}
 	}

@@ -1,0 +1,4 @@
+[submodule "Assets/HoshinoLabs/CloudBuild.SDK"]
+	path = Assets/HoshinoLabs/CloudBuild.SDK
+	url = https://github.com/hoshinolabs-vrchat/assets-CloudBuild.SDK.git
+	branch = v0.1
